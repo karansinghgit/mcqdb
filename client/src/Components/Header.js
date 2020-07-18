@@ -1,6 +1,6 @@
-import React from 'react';
-import './Header.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,9 +10,15 @@ function Header() {
       </div>
       <div className="links-section">
         <ul>
-          <li><Link to="/contests">contests</Link></li>
-          <li><Link to="/about">about</Link></li>
-          <li><Link to="/enter">enter</Link></li>
+          <li>
+            <Link to="/contests">contests</Link>
+          </li>
+          <li>
+            <Link to="/about">about</Link>
+          </li>
+          <li>
+            <Link to="/enter">enter</Link>
+          </li>
         </ul>
       </div>
     </div>

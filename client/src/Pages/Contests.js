@@ -1,12 +1,21 @@
-import React from 'react';
-import './Contests.css'
+import React from "react";
+import "./Contests.css";
+import Contest from "../Components/Contest.js";
 
 function Contests() {
   return (
     <div className="contests">
-      <h1>welcome to contests</h1>
+      <Contest></Contest>
+      <Contest></Contest>
+      <Contest></Contest>
+      <Contest></Contest>
+      <Contest></Contest>
+      <Contest></Contest>
+      <Contest></Contest>
+      <Contest></Contest>
+      <Contest></Contest>
     </div>
   );
 }
 
-export default Contests;  
+export default Contests;
